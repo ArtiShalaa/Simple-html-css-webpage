@@ -144,7 +144,7 @@ ul li{
     background-size: 50% auto;
     background-position-x: left;
     margin-top: 200px;
-    margin-right: 100px;
+    margin-right: 90px;
   }
   .about h3{
       display: flex;
@@ -166,9 +166,26 @@ ul li{
       line-height: 26px;
        margin-bottom: 30px; 
       font-size: 20px;
+      
   }
-  .us{
-     
-     
-  }
- 
+ .us{
+     display: flex;
+     flex-direction:column;
+   
+ }
+ .us img{
+     margin-top: 100px;
+     max-width: 1207px;
+ }
+ .us h2{
+     margin-top: 70px;
+     margin-left: 100px;
+     text-transform: uppercase;
+     font-weight: 900;
+ }
+ .us p{
+     margin-left: 100px;
+     margin-top: 30px;
+     font-weight: 300;
+     line-height: 26px;
+ }
